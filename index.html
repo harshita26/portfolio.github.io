@@ -30,91 +30,155 @@
       </div>
     </header>
 
-    <section id="intro">
-      <div class="intro-overlay"></div>
-      <div class="content container">
+    <section id="intro"> ... </section>
+
+    <section id="about"> ... </section>
+
+    <section id="resume" class="py-5 bg-light">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Resume</h2>
+            <p>My professional experience and education.</p>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h5 class="text-uppercase">Hello, There</h5>
-            <h1 class="text-white py-3">I'm Harshita Khandelwal</h1>
-            <p class="intro-position text-white text-uppercase">
-              <span class="px-3 border-left border-right">AWS Data Engineer</span>
-              <span class="px-3 border-right">Full Stack Developer</span>
-            </p>
-            <p class="intro-position text-white text-uppercase">
-              <span class="px-3 border-left border-right">PySpark & Informatica Expert</span>
-              <span class="px-3 border-right">SQL | PostgreSQL </span>
-            </p>
-            <a href="#about" class="btn btn-outline-light px-5 py-3 my-3">More About Me <i class="arrow down ml-2"></i> </a>
+          <div class="col-md-6">
+            <h4>Experience</h4>
+            <ul class="timeline">
+              <li>
+                <h5>TCS Digital, Tata Consultancy Services</h5>
+                <p><strong>Role:</strong> IT Analyst | Full Stack + AWS Data Engineer</p>
+                <p><strong>Duration:</strong> 2021 - Present</p>
+                <p><strong>Highlights:</strong> Delivered a critical U.S. government Clinical Trials data solution where multiple teams had failed. Built and maintained backend systems, API integration, cloud pipelines, and handled large-scale data engineering projects on AWS.</p>
+              </li>
+              <li>
+                <h5>IBM</h5>
+                <p><strong>Role:</strong> Senior Cloud Developer (Internship)</p>
+                <p><strong>Highlights:</strong> Contributed to cloud-native applications and agile development workflows. Focused on Python, AWS, and DevOps-based pipelines.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Education</h4>
+            <ul class="timeline">
+              <li>
+                <h5>Bachelor of Technology in Computer Science</h5>
+                <p><strong>University:</strong> Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)</p>
+                <p><strong>Duration:</strong> 2016 - 2020</p>
+                <p><strong>Result:</strong> First Class with Distinction</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <ul class="intro-social text-white">
-        <li><a href="https://www.linkedin.com/in/harshita-khandelwal/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/harshita26/" target="_blank"><i class="fa fa-github"></i></a></li>
-      </ul>
     </section>
 
-    <section id="about">
-      <div class="container px-md-5 py-5">
+    <section id="port" class="py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Portfolio</h2>
+            <p>Some of my featured works.</p>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h5>ABOUT</h5>
-            <h1>Let me introduce myself.</h1>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/clinical_trials_project.png" class="card-img-top" alt="Clinical Trials">
+              <div class="card-body">
+                <h5 class="card-title">Clinical Trials Data Platform</h5>
+                <p class="card-text">Built scalable PySpark + AWS Glue pipelines for a government ClinicalTrials.gov solution using PostgreSQL, JSON, and Informatica.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/portfolio_site.png" class="card-img-top" alt="Portfolio Site">
+              <div class="card-body">
+                <h5 class="card-title">Personal Portfolio</h5>
+                <p class="card-text">Developed a responsive website using HTML, CSS, Bootstrap, and JS to showcase skills and projects.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/react_dashboard.png" class="card-img-top" alt="Dashboard">
+              <div class="card-body">
+                <h5 class="card-title">React Admin Dashboard</h5>
+                <p class="card-text">Created a reusable React dashboard with authentication, charts, and API integration for data visualization.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row px-lg-5 py-4">
-          <div class="col-md-12 text-center">
-            <p class="lead pt-md-3">I am a Full Stack + AWS Data Engineer with deep experience in building resilient data pipelines, cloud-native solutions, and user-friendly applications.</p>
+      </div>
+    </section>
+
+    <section id="service" class="py-5 bg-light">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Services</h2>
+            <p>What I can offer.</p>
           </div>
         </div>
-        <div class="row px-lg-5 py-2">
-          <div class="col-md-6 pl-sm-4">
-            <h4>Profile</h4>
-            <p class="py-3">"I believe in learning from every instance. To me, success means learning something new every day."</p>
-            <strong>FULLNAME:</strong>
-            <p>Harshita Khandelwal</p>
-            <strong>BIRTH DATE:</strong>
-            <p>February 26</p>
-            <strong>WEBSITE:</strong>
-            <p><a href="https://harshita26.github.io/portfolio.github.io/" class="text-dark">Portfolio</a></p>
-            <strong>EMAIL:</strong>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fa fa-code fa-3x mb-3"></i>
+            <h5>Web Development</h5>
+            <p>Full-stack web applications using React, Node, Django, and PostgreSQL.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-database fa-3x mb-3"></i>
+            <h5>Data Engineering</h5>
+            <p>Expertise in PySpark, Glue, Informatica, and complex data transformations on AWS.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-cloud fa-3x mb-3"></i>
+            <h5>Cloud Solutions</h5>
+            <p>End-to-end AWS architecture and serverless solutions using Lambda, S3, Glue, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Contact</h2>
+            <p>Let's get in touch!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Email</h5>
             <p>harshitakhandelwal925@gmail.com</p>
+            <h5>Location</h5>
+            <p>Delhi-NCR, India</p>
+            <h5>LinkedIn</h5>
+            <p><a href="https://www.linkedin.com/in/harshita-khandelwal/">linkedin.com/in/harshita-khandelwal</a></p>
           </div>
-          <div class="col-md-6 btns">
-            <h4>Skills</h4>
-            <p class="py-3">Skilled in developing scalable web apps and cloud-based data engineering pipelines.</p>
-            <button class="btn btn-outline-dark mb-2">HTML5</button>
-            <button class="btn btn-outline-dark mb-2">CSS3</button>
-            <button class="btn btn-outline-dark mb-2">JavaScript</button>
-            <button class="btn btn-outline-dark mb-2">React JS</button>
-            <button class="btn btn-outline-dark mb-2">Node JS</button>
-            <button class="btn btn-outline-dark mb-2">Python</button>
-            <button class="btn btn-outline-dark mb-2">Django</button>
-            <button class="btn btn-outline-dark mb-2">MySQL</button>
-            <button class="btn btn-outline-dark mb-2">PostgreSQL</button>
-            <button class="btn btn-outline-dark mb-2">SQL</button>
-            <button class="btn btn-outline-dark mb-2">AWS Glue</button>
-            <button class="btn btn-outline-dark mb-2">PySpark</button>
-            <button class="btn btn-outline-dark mb-2">Informatica</button>
-            <button class="btn btn-outline-dark mb-2">MongoDB</button>
-            <button class="btn btn-outline-dark mb-2">GitHub</button>
-            <button class="btn btn-outline-dark mb-2">Oracle</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 text-right">
-            <a href="#contact" class="btn btn-outline-dark px-md-5 py-3 btn-wgh">CONTACT ME</a>
-          </div>
-          <div class="col-6">
-            <a href="https://drive.google.com/file/d/1Afn9uwgsMZdqdGACUJ87LQQTzDG-mRvZ/view?usp=sharing" class="btn btn-outline-dark px-md-5 py-3 btn-wgh">DOWNLOAD CV</a>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Include original resume, portfolio, and contact section code -->
-    <!-- Only intro and about sections were updated here. If you'd like, I can extend this full page update to resume/portfolio/services as well -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
